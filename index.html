@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Programmers Calculator</h1>
+    </div>
+    
+    <div class="calculator">
+        <div class="inputfield">
+            <input class="expression" type="text" placeholder="type here">
+            <input class="answer" type="text" name="" id="">
+        </div>
+        <div class="cal">
+            <div class="pro-op">
+                <button data="" onclick="solve()" class="btn">=</button>
+                <button data="" onclick="cleardata()"  class="btn">AC</button>
+                <button data="" onclick="cleardata()" class="btn">C</button>
+                <button data="&" class="btn logical">AND</button>
+                <button data="|" class="btn logical">OR</button>
+                <button data="^" class="btn logical">XOR</button>
+                <button data="!" class="btn logical">NOT</button>
+                <button data="<<" class="btn logical"><<</button>
+                <button data=">>" class="btn logical">>></button>
+                <button data="~" class="btn logical">1's</button>
+                <button data="" onclick="twoscompl()" class="btn logical">2's</button>
+                <button data="00"  class="btn logical">00</button>
+            </div>
+            <div class="ari-op">
+                <button data="+"  class="btn arith">+</button>
+                <button data="9" class="btn">9</button>
+                <button data="8" class="btn">8</button>
+                <button data="7" class="btn">7</button>
+                <button data="-" class="btn arith">-</button>
+                <button data="6" class="btn">6</button>
+                <button data="5" class="btn">5</button>
+                <button data="4" class="btn">4</button>
+                <button data="/" class="btn arith">/</button>
+                <button data="3" class="btn">3</button>
+                <button data="2" class="btn">2</button>
+                <button data="1" class="btn">1</button>
+                <button data="*" class="btn arith">*</button>
+                <button data="%" class="btn arith">%</button>
+                <button data="0" class="btn">0</button>
+                <button data="." class="btn">.</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
